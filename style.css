@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    margin: 1rem;
+    background: hsl(217, 54%, 11%);
+    margin: 50px 0;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    margin: 2rem;
+    max-width: 300px;
+    box-shadow: 10% 10% 30% 60% hsl(217, 54%, 11%);
+}
+
+.grid-img img {
+    width: 90%;
+    margin: 1rem;
+    position: relative;
+    border-radius: 10px;
+}
+
+.hover {
+    margin-left: 20px;
+    transition: .5s;
+}
+
+.hover:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.text-p {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: hsl(215, 51%, 70%);
+    line-height: 30px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.eth {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.eth-text {
+    margin-left: 10px;
+    letter-spacing: 2px;
+    color: hsl(178, 100%, 50%);
+}
+
+.second {
+    color: hsl(215, 51%, 70%);
+}
+
+hr {
+    margin: 0 20px;
+    color: hsl(215, 51%, 25%);
+}
+
+.down-text {
+    display: flex;
+}
+
+.down-text img {
+    width: 30px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 2px solid hsl(0, 0%, 100%);
+}
+
+.down-text p {
+    color: hsl(215, 51%, 70%);
+    margin-top: 25px;
+}
+
+span {
+    color: hsl(0, 0%, 100%);
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+@media screen and (min-width:600px) {
+    body {
+        margin: 1rem;
+        background: hsl(217, 54%, 11%);
+        margin: 50px 0;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .grid-img img {
+        width: 90%;
+        margin: 1rem;
+        border-radius: 10px;
+    }
+}
